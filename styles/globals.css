@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import '~rsuite/styles/index.less'; */
+/* @import 'custom-theme..less'; */
+
+nav::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
+    height: 1px;
+}
+
+.examples {
+    padding: 2rem 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: .5rem auto;
+}
+
+.splide {
+    padding: 0 !important;
+}
+
+.splide__slide {
+    background: #eee;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.splide--nav {
+    margin-top: 1rem;
+}
+
+.splide__arrow:disabled {
+    opacity: 0 !important;
+}
+
+.splide__arrow {
+    background-color: #fff !important;
+    opacity: 0 !important;
+}
+.popup .splide__arrow:not(:disabled) ,
+.flex:hover>.wrapper .splide__arrow:not(:disabled) {
+    opacity: 1 !important;
+}
+
+.splide__pagination__page {
+    height: 5px !important;
+    width: 5px !important;
+    background-color: #fff !important;
+}
+
+.splide__pagination__page:hover,
+.splide__pagination__page.is-active {
+    opacity: 1 !important;
+}
+
+.date>.rs-stack,
+.list>.rs-stack {
+    display: none !important;
+}
+
+.rs-picker-menu {
+    top: 160px !important;
+    left: 19% !important;
+}
+
+.rs-btn-link {
+    color: #ff385c;
+}
+
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content,
+.rs-calendar-table-cell-content:hover {
+    background-color: #ff385c;
+}
+
+.rs-btn-primary {
+    background-color: #ff385c;
+}
+
+.rs-calendar-table-cell-in-range:before {
+    background-color: rgba(247, 165, 180, 0.5);
+}
+
+.rs-picker-menu .rs-calendar .rs-calendar-table-cell:hover .rs-calendar-table-cell-content {
+    background-color: rgba(247, 165, 180, 0.5);
+    color: #ff385c;
+}
+
+.rs-picker-menu .rs-calendar .rs-calendar-table-cell-selected:hover .rs-calendar-table-cell-content {
+    background-color: #ff385c;
+    color: #fff;
+}
+
+.rs-btn-link:focus,
+.rs-btn-link:hover {
+    color: #ff385c;
+}
+
+.rs-btn-primary:focus,
+.rs-btn-primary:hover {
+    background-color: #ff385c;
+}
+
+.rs-picker-menu {
+    width: 63%;
+    position: fixed;
+    --tw-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    --tw-shadow-colored: 0 1px 2px var(--tw-shadow-color), 0 4px 12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    z-index: 10;
+}
+
+.rs-stack>.rs-stack-item:not(.rs-picker-menu .rs-picker-toolbar .rs-stack-item) {
+    width: 100%;
+}
+
+.rs-calendar {
+    width: 50%;
+}
+.rs-btn-primary.rs-btn-disabled,
+.rs-btn-primary:disabled {
+    background:#ff385c;
+}
+.rs-btn-link.rs-btn-disabled,
+.rs-btn-link:disabled{
+    color: #ff385c;
+}
+.leaflet-popup-content{
+    margin: 0 !important;
+}
+.leaflet-left {
+    display: none;
+}
+.leaflet-popup-content-wrapper {
+    padding: 0 !important;
+}
+.leaflet-popup-content{
+    width: 300px;
+}
+.leaflet-container a.leaflet-popup-close-button {
+    align-items: center;
+        background: rgba(0,0,0,.4) !important;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        height: 1.5em !important;
+        justify-content: center;
+        padding: 0;
+        left: 3%;
+        top: 7% !important;
+        transform: translateY(-50%);
+        width: 1.5em !important;
+        z-index: 10;
+}
+.leaflet-container a.leaflet-popup-close-button span {
+    color: #fff;
+    /* font-weight: bolder; */
+}
+.leaflet-popup-content p {
+    margin: 0 !important; 
+}

@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@badrap/bar-of-progress": "*",
+    "@heroicons/react": "^1.0.6",
+    "@react-hook/media-query": "*",
+    "@sanity/image-url": "^1.0.2",
+    "@splidejs/react-splide": "^0.7.12",
+    "cross-env": "*",
+    "date-fns": "*",
+    "feather-icons": "*",
+    "framer-motion": "^10.1.0",
+    "geolib": "*",
+    "leaflet": "^1.9.3",
+    "next": "latest",
+    "next-auth": "*",
+    "next-sanity": "^4.1.5",
+    "next-with-less": "^2.0.5",
+    "react": "18.2.0",
+    "react-date-range": "*",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-leaflet": "^4.2.1",
+    "react-map-gl": "*",
+    "rsuite": "^5.28.2",
+    "styled-components": "*",
+    "tailwind-scrollbar-hide": "*",
+    "webpack-merge": "^5.8.0",
+    "webpack-multiple-themes-compile": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-date-range": "^1.4.4",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
+  }
+}
